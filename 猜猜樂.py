@@ -1,4 +1,5 @@
-n=87
+import random
+n=random.randint(0,99)
 g=0
 while (g!=n):
     g=int(input("請輸入1-99內的常數:"))
