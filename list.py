@@ -29,4 +29,11 @@ print(n2+"的總分為:"+str(chi2+eng2+math2))
 print(n3+"的總分為:"+str(chi3+eng3+math3))
 print(n4+"的總分為:"+str(chi4+eng4+math4))
 print(n5+"的總分為:"+str(chi5+eng5+math5))
+#簡化
+n=["","李均菱","夏芳如","連英亨","吳靜怡"]
+chi=[0,87,66,55,48]
+eng=[0,92,55,89,10]
+math=[0,23,84,45,54]
+for i in range(1,5):
+    print(n[i]+"的總分為:"+str(chi[i]+eng[i]+math[i]))
 
